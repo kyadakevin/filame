@@ -8,14 +8,14 @@ main()
 	char pass[100];
 	
 	printf("enter the email=");
-	scanf("%c",&emai);
+	gets(emai);
 	
 	printf("\nenter the password\n=");
-	scanf("%c",&pass);
+	gets(pass);
 	
-	if((email, "emai") == 0)
+	if(srecmp(email, emai) == 0)
 	  { 
-	       if(password,"pass"== 0)
+	       if(strcmp(password,"pass")== 0)
 	       {
 	       	printf("\nUser successfully logged in... ");
 		   }
